@@ -1,0 +1,121 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1376px;
+    background-color: #043873;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links{
+    display: flex;
+    gap: 50px;
+}
+.links a{
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+}
+.yellow-bttn{
+    width: 126px;
+    height: 60px;
+    background-color: #FFE492;
+    color: #043873;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+.blue-bttn{
+    width: 227px;
+    height: 60px;
+    background-color: #4F9CF9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+.bttns{
+    display: flex;
+    gap: 24px;
+}
+.header_nav{
+    display: flex;
+    gap:30px 95px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+header{
+    padding: 16px;
+}
+.hero-section{
+    background-color: red;
+    height: 656px;
+    display: flex   ;
+    flex-wrap: wrap;
+    gap: 25px 0px;
+}
+.hero-section .container{
+    display: flex;
+    align-items: center;
+       background-color: red;
+}
+body{
+    background-color: #043873;
+}
+.text-box h2{
+    color: white;
+    font-size: 64px;
+    max-width: 691px;
+}
+.text-box h1{
+    font-size: 64px;
+    max-width: 691px;
+}
+.text-box p{
+    color: white;
+    font-size: 18px;
+    margin: 24px 0px 60px;
+}
+.img-box{
+    width: 685px;
+    height: 456px;
+    background-color: aquamarine;
+}
+main .part-2{
+    display: flex;
+}
+.part-2{
+    background-color: white;
+     height: 656px;
+}
+.part-2 .container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.part-2 p{
+    color: black;
+}
+.img{
+     width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+}
