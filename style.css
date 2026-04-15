@@ -6,7 +6,7 @@
 }
 .container{
     max-width: 1376px;
-    background-color: #043873;
+    /* background-color: #043873; */
     margin: 0 auto;
 }
 .logo{
@@ -66,7 +66,7 @@ header{
     padding: 16px;
 }
 .hero-section{
-    background-color: red;
+    /* background-color: red; */
     height: 656px;
     display: flex   ;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ header{
 .hero-section .container{
     display: flex;
     align-items: center;
-       background-color: red;
+       /* background-color: red; */
 }
 body{
     background-color: #043873;
@@ -99,23 +99,233 @@ body{
     height: 456px;
     background-color: aquamarine;
 }
-main .part-2{
+main .Project-Management{
     display: flex;
 }
-.part-2{
+.Project-Management{
     background-color: white;
      height: 656px;
 }
-.part-2 .container{
+.Project-Management .container , .work-together .container , .choose-plan p, .choose-plan h1{
     background-color: white;
     display: flex;
     align-items: center;
 }
-.part-2 p{
+.Project-Management p{
     color: black;
 }
 .img{
      width: 700px;
     height: 400px;
     background-color: aquamarine;
+}
+.Project-Management h1{
+    position: relative;
+    z-index: 2;
+}
+.element{
+    position: absolute;
+    bottom: -14px;
+    z-index: 1;
+}
+.Project-Management .text-box{
+    position: relative;
+    max-width: 672;
+}
+.heading{
+    position: relative;
+    width: max-content;
+}
+.work-together{
+    background-color: white;
+    width: 100%;
+    height: 661px;
+    position: relative;
+}
+.boxes{
+    width: 710px;
+    position: relative;
+}
+.box1{
+    width: 70px;
+    height: 70px;
+    background-color: #ffdc4d;
+    position: relative;
+    border-radius: 35px;
+    top: 23px;
+    left: 140px;
+}
+.box2{
+    width: 70px;
+    height: 70px;
+    background-color:#FF5758;
+    border-radius: 35px;
+    position: absolute;
+    top: 296px;
+}
+.box3{
+    width: 70px;
+    height: 70px;
+    background-color: #37A3FF;
+    position: absolute;
+    top: 568px;
+    left: 137px;
+    border-radius: 35px;
+}
+.box4{
+    width: 70px;
+    height: 70px;
+    background-color: #00ca75;
+    position: absolute;
+    top: 401px;
+    left: 640px;
+    border-radius: 35px;
+}
+.box5{
+    width: 70px;
+    height: 70px;
+    background-color: #37A3FF;
+    position: absolute;
+    top: 71px;
+    left: 564px;
+    border-radius: 35px;       
+}
+.box6{
+    width: 70px;
+    height: 70px;
+    background-color: #00ca75;
+    position: absolute;
+    top: 102px;
+    left: 332px;
+    border-radius: 35px;
+}
+.box7{
+   width: 70px;
+    height: 70px;
+    background-color: #37A3FF;
+    position: absolute;
+    top: 296px;
+    left: 524px;
+    border-radius: 35px;
+}
+.box8{
+    width: 70px;
+    height: 70px;
+    background-color: #FFBF60;
+    position: absolute;
+    top: 489px;
+    left: 331px;
+    border-radius: 35px;
+}
+.box9{
+    width: 70px;
+    height: 70px;
+    background-color: #37A3FF;
+    position: absolute;
+    top: 296px;
+    left: 137px;
+    border-radius: 35px;
+}
+.img-1{
+    position: absolute;
+    top: 309px;
+    left: 338px;
+    width: 57px;
+    height: 44px;
+}
+.choose-plan{
+    background-color: white;
+    height: 1272px;
+}
+.choose-plan .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-plan .free , .choose-plan .organization{
+    width: 472px;
+    height: 634px;
+    border-radius: 10px;
+    border: 1px solid #FFE492;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 40px;
+    gap: 25px;
+}
+.choose-plan .price{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.choose-plan .free .price span:nth-child(1) , .choose-plan .organization .price span:nth-child(1){
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+.choose-plan .free .price span:nth-child(2) , .choose-plan .organization .price span:nth-child(2){
+    font-size: 36px;
+    color: black;
+    font-weight: 800;
+}
+.choose-plan .free .price span:nth-child(3) , .choose-plan .organization .price span:nth-child(3){
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.choose-plan ul{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.choose-plan .free .bttn , .choose-plan .organization .bttn{
+    width: 166px;
+    height: 51px;
+    background-color: transparent;
+    border: 1px solid #ffdc4d;
+    border-radius: 8px;
+}
+.subscriptions{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.choose-plan .personal{
+    width: 472px;
+    height: 761px;
+    background-color: #043873;
+    border-radius: 10px;
+    padding: 80px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.choose-plan .personal .price span:nth-child(1){
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.choose-plan .personal .price span:nth-child(2){
+    font-size: 36px;
+    color: #ffdc4d;
+    font-weight: 800;
+}
+.choose-plan .personal .price span:nth-child(3){
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.personal .bttn{
+    background-color: #37A3FF;
+    color: white;
+     width: 166px;
+    height: 51px;
+    border: none;
+    border-radius: 8px;
+}
+.personal .list-1 img{
+    background-color: #ffdc4d;
+    border-radius: 8px;
 }
