@@ -278,6 +278,7 @@ main .Project-Management{
     display: flex;
     flex-direction: column;
     gap: 28px;
+    list-style: none;
 }
 .choose-plan .free .bttn , .choose-plan .organization .bttn{
     width: 166px;
@@ -328,4 +329,12 @@ main .Project-Management{
 .personal .list-1 img{
     background-color: #ffdc4d;
     border-radius: 8px;
+}
+.list li{
+    display: flex;align-items: center;
+    gap: 8px;
+}
+.list-1 li{
+     display: flex;align-items: center;
+    gap: 8px;
 }
